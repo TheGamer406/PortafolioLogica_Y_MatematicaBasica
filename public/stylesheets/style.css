@@ -1,0 +1,117 @@
+body {
+  padding: 0 30px;
+  font-size: 16px;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #494949;
+  color: white;
+}
+body,html{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  flex:1;
+
+}
+a {
+  color: #00B7FF;
+}
+header{
+  height: 80px;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;  
+  background-color: #a1fc76;
+  border-radius: 0 0 10px 10px;
+  color: #000;
+}
+.navMenuHeader{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+}
+.house{
+  text-decoration: none;
+  color: #000 ;
+}
+.container{
+  padding: 20px 40px;
+}
+.containerFooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.redes{
+  display: flex;
+  justify-content: center;
+}
+.redes a{
+  color: #000;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 5px 20px;
+}
+.redes a:hover{
+  transform: scale(1.5);
+  transition: 0.2s;
+}
+.redes a:hover{
+  color: #55ff06;
+}
+.navMenuFooter{
+  display: flex;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.nav{
+  padding: 3px 10px;
+  margin: 0 20px;
+  background-color: #494949;
+  color: white;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.nav:hover{
+  background-color: #6a6a6a;
+}
+.menuPortafolio1{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.menuPortafolio1 a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .menuPortafolio1{
+  display: block;
+}
+footer{
+  border-radius: 10px 10px 0 0;
+  background-color: #a1fc76;
+  padding: 10px 30px;
+}
+.copy{
+  text-align: center;
+  font-size: 12px;
+  color: #000;
+}
+.box{
+  padding: 5px 20px;
+  box-shadow: 5px 4px 10px #fff;
+  border-radius: 8px;
+  
+}

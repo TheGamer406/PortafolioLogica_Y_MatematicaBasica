@@ -1,0 +1,12 @@
+.box p{
+    text-wrap:pretty;
+    width: 800px;
+    text-indent: 15px;
+    
+}
+.indexContent{
+    display: flex;
+}
+.indexContent img{
+    height: 400px;
+}
