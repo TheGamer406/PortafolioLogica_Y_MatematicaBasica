@@ -1,11 +1,141 @@
 <%- include('./layouts/header.ejs') %>
-
+  <link rel="stylesheet" href="stylesheets/jerogrificos.css">
   <div class="container">
     <div class="box">
-      <p>Ejercicio <%= title %></p>
-      <label>Instructivo</label>
-      
+      <h1>Ejercicio <%= title %></h1>
+      <div class="line" style="width: 800px; height: 4px;"></div>
+      <div class="info">
+        <label>Instructivo</label>
+        <div class="line" style="width: 300px; height: 2px;"></div>
+        <p>
+          Cleopatra, cuyo nombre significa “gloria de su padre”, fue la
+          última reina de la dinastía ptolemaica, y con su muerte se cerró el
+          periodo helenístico de Egipto. Antes de morir, dejó a sus esclavos
+          el siguiente enigma.¿Podrás resolverlo?
+        </p>
+        <div class="center">
+          <img class="ejercicio" src="images/jerogrificos.png" alt="Ejercicio Gerogrificos">
+        </div>
+        <br/>
+        <label>Diccionario</label>
+        <div class="line" style="width: 300px; height: 2px;"></div>
+        <br/>
+        <div class="center">
+          <img src="images/Diccionario.png" alt="diccionario para resolver">
+        </div>
+        <label>resolucion</label>
+        <div class="line" style="width: 300px; height: 2px;"></div>
+        <div class="center">
+          <table>
+            <tr>
+                <th>tabla</th>
+                <th>a</th>
+                <th>b</th>
+                <th>c</th>
+                <th>d</th>
+            </tr>
+            <tr>
+                <td>p</td>
+                <td>q</td>
+                <td>r</td>
+                <td>-r</td>
+                <td>p or q</td>
+                <td>-r y q</td>
+                <td>q &lt;&gt; r</td>
+                <td>a &gt; b</td>
+                <td>d &gt; c</td>
+            </tr>
+            <tr>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>f</td>
+                <td>v</td>
+                <td>f</td>
+                <td>v</td>
+                <td>v</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>v</td>
+                <td>v</td>
+                <td>f</td>
+                <td>v</td>
+                <td>v</td>
+                <td>f</td>
+                <td>f</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr>
+                <td>v</td>
+                <td>f</td>
+                <td>v</td>
+                <td>f</td>
+                <td>v</td>
+                <td>f</td>
+                <td>v</td>
+                <td>v</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>v</td>
+                <td>f</td>
+                <td>f</td>
+                <td>v</td>
+                <td>v</td>
+                <td>f</td>
+                <td>f</td>
+                <td>f</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>f</td>
+                <td>v</td>
+                <td>v</td>
+                <td>f</td>
+                <td>v</td>
+                <td>f</td>
+                <td>v</td>
+                <td>f</td>
+                <td>v</td>
+            </tr>
+            <tr>
+                <td>f</td>
+                <td>v</td>
+                <td>f</td>
+                <td>v</td>
+                <td>v</td>
+                <td>f</td>
+                <td>f</td>
+                <td>f</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>f</td>
+                <td>f</td>
+                <td>v</td>
+                <td>f</td>
+                <td>f</td>
+                <td>f</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr>
+                <td>f</td>
+                <td>f</td>
+                <td>f</td>
+                <td>v</td>
+                <td>f</td>
+                <td>f</td>
+                <td>f</td>
+                <td>f</td>
+                <td>f</td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
   </div>
-
 <%- include('./layouts/footer.ejs')%>

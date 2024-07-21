@@ -18,19 +18,19 @@ app.get('/ejercicioJerogrificos', (req, res)=>{
     res.render('jerogrificos', { title: 'jerogrificos '})
 });
 app.get('/P1EA', (req, res) => {
-    res.render('P1EA', { title: 'Jerogrificos' });
+    res.render('P1EA', { title: 'Acercamiento a 25' });
 });
 app.get('/P1EB', (req, res) => {
-    res.render('P1EB', { title: 'Jerogrificos' });
+    res.render('P1EB', { title: 'Nerdle del dia' });
 });
 app.get('/P1EC', (req, res) => {
-    res.render('P1EC', { title: 'Jerogrificos' });
+    res.render('P1EC', { title: 'Silogismos' });
 });
 app.get('/P1ED', (req, res) => {
-    res.render('P1ED', { title: 'Jerogrificos' });
+    res.render('P1ED', { title: 'Texto de Referencia' });
 });
 app.get('/P1EE', (req, res) => {
-    res.render('P1EE', { title: 'Jerogrificos' });
+    res.render('P1EE', { title: 'tabla de verdad' });
 });
 app.get('/P2E1',(req, res,)=>{
     res.render('P2E1',{title:'Jerogrificos'  })

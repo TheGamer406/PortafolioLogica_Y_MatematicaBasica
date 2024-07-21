@@ -1,7 +1,49 @@
 <%- include('./layouts/header.ejs') %>
-
-  <div class="container">
-    <p>Welcome to <%= title %></p>
+<div class="container">
+  <div class="box">
+    <div class="center">
+      <h1>Ejercicio <%= title %></h1>
+      <div class="line" style="width: 800px; height: 4px;"></div>
+    </div>
+    <div class="info">
+      <label>Instructivo</label>
+      <div class="line" style="width: 300px; height: 2px;"></div>
+      <p>
+        Siguiendo la estructura de premisa mayor, premisa menor y conclusión.
+        Elabore dos silogismos propios
+      </p>
+      <label>Resolucion</label>
+      <div class="line" style="width: 300px; height: 2px;"></div>
+      <div class="center">
+        <label>Silogismo 1</label>
+        <div class="horiziontal">
+          <p class="resaltar">Premisa mayor: </p>
+          <p>Si un numero es par, entonces es divisible por 2</p>
+        </div>
+        <div class="horiziontal">
+          <p class="resaltar">Premisa menor: </p>
+          <p>El numeor 4 es par</p>
+        </div>
+        <div class="horiziontal">
+          <p class="resaltar">Conclusión: </p>
+          <p>El Numero 4 es divisible por 2</p>
+        </div>
+        <label>Silogismo 2</label>
+        <div class="horiziontal">
+          <p class="resaltar">Premisa mayor: </p>
+          <p>Si un número es múltiplo de 5, entonces termina en 0 o en 5.</p>
+        </div>
+        <div class="horiziontal">
+          <p class="resaltar">Premisa menor: </p>
+          <p>El número 15 es múltiplo de 5.</p>
+        </div>
+        <div class="horiziontal">
+          <p class="resaltar">Conclusión: </p>
+          <p>El número 15 termina en 5.</p>
+        </div>
+      </div>
+      </div>
+    </div>
   </div>
-
+</div>
 <%- include('./layouts/footer.ejs')%>

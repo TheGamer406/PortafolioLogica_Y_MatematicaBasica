@@ -39,7 +39,7 @@ header{
   color: #000 ;
 }
 .container{
-  padding: 20px 40px;
+  padding: 20px 120px;
 }
 .containerFooter{
   display: flex;
@@ -62,7 +62,7 @@ header{
   transition: 0.2s;
 }
 .redes a:hover{
-  color: #55ff06;
+  color: #3ca30c;
 }
 .navMenuFooter{
   display: flex;
@@ -89,12 +89,22 @@ header{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border-radius: 10px;
 }
 .menuPortafolio1 a{
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  border-radius: 10px;
+}
+.menuPortafolio1 a:hover{
+  background-color: #6a6a6a;
+  color: #a1fc76;
+}
+.menuPortafolio1 a:active{
+  background-color: #000000;
+  color: #a1fc76;
 }
 .dropdown:hover .menuPortafolio1{
   display: block;
@@ -113,5 +123,64 @@ footer{
   padding: 5px 20px;
   box-shadow: 5px 4px 10px #fff;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.line{
+  background-color: #fff;
+  border-radius: 5px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  gap: 10px;
+}
+.info p{
+  text-indent: 20px;
+  text-wrap:wrap;
+  padding: 0 15px;
+}
+label{
+  font-weight: 800;
+  font-size: 20px;
+}
+.resaltar{
+  font-weight: 800;
+  font-size: 18px;
+}
+.horiziontal{
+  display: flex;
+}
+.link{
+  padding: 10px 20px;
+  background-color: #a1fc76;
+  color: #000;
+}
+.link:hover{
+  background-color: #3ca30c;
+  color: white;
+}
+.link:active{
+  background-color: #000;
   
+}
+table {
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #fff;
+  text-align: center;
+  min-width: 30px;
+  padding: 2px 5px;
 }

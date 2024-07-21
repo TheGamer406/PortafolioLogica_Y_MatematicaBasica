@@ -1,7 +1,22 @@
 <%- include('./layouts/header.ejs') %>
-
-  <div class="container">
-    <p>Welcome to <%= title %></p>
+<div class="container">
+  <div class="box">
+    <div class="center">
+      <h1>Ejercicio <%= title %></h1>
+      <div class="line" style="width: 800px; height: 4px;"></div>
+    </div>
+    <div class="info">
+      <label>Instructivo</label>
+      <div class="line" style="width: 300px; height: 2px;"></div>
+      <p>
+        Solucionar el Nerdle del dia
+      </p>
+      <label>Resolucion</label>
+      <div class="line" style="width: 300px; height: 2px;"></div>
+      <div class="center">
+        <img src="images/nerdle.png">
+      </div>
+    </div>
   </div>
-
+</div>
 <%- include('./layouts/footer.ejs')%>
