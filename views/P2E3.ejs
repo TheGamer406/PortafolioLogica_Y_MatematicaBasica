@@ -1,7 +1,22 @@
-p<%- include('./layouts/header.ejs') %>
-
+<%- include('./layouts/header.ejs') %>
 <div class="container">
-  <p>Welcome to <%= title %></p>
+  <div class="box">
+    <div class="center">
+      <h1>Ejercicio <%= title %></h1>
+      <div class="line" style="width: 800px; height: 4px;"></div>
+    </div>
+    <div class="info">
+      <label>Instructivo</label>
+      <div class="line" style="width: 300px; height: 2px;"></div>
+        <p class="resaltar">Factorice al máximo las siguientes expresiones</p>
+        <ol>
+          <li>5x(3m - 2n) - y(2n - 3m) = (3m - 2n)(5x + y)</li>
+          <li>25x<sup>2</sup> - 49 = (5x + 7)(5x - 7)</li>
+          <li>-16m<sup>2</sup> + 9 = -(4m + 3)(4m - 3)</li>
+          <li>8m<sup>4</sup> + 27mh<sup>3</sup> = (2m<sup>2</sup> + 3h)(4m<sup>4</sup> - 6m<sup>2</sup>h + 9h<sup>2</sup>)</li>
+          <li>3ab - 5bx + 6ay - 10xy = (b + 2y)(3a - 5x)</li>
+      </ol>
+    </div>
+  </div>
 </div>
-
 <%- include('./layouts/footer.ejs')%>

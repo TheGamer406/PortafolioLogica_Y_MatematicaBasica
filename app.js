@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const { title } = require('process');
 const app = express();
 
 // Configurar el motor de vistas
@@ -32,15 +33,18 @@ app.get('/P1EE', (req, res) => {
     res.render('P1EE', { title: 'Tabla de verdad' });
 });
 app.get('/P2E1',(req, res,)=>{
-    res.render('P2E1',{title:'Jerogrificos'  })
+    res.render('P2E1',{title:'Conjuntos 1'  })
 });
 app.get('/P2E2',(req, res,)=>{
-    res.render('P2E1',{title:'Jerogrificos'  })
+    res.render('P2E2',{title:'Conjuntos 2'  })
 });
 app.get('/P2E3',(req, res,)=>{
-    res.render('P2E1',{title:'Jerogrificos'  })
+    res.render('P2E3',{title:'Factorizacion polinomios'  })
 });
 app.get('/P2E4',(req, res,)=>{
-    res.render('P2E1',{title:'Jerogrificos'  })
+    res.render('P2E4',{title:'Division polinomios' })
 });
+app.get('/P2E5',(req, res)=>{
+    res.render('P2E5',{title: 'Opinion Conjuntos'})
+})
 module.exports = app;

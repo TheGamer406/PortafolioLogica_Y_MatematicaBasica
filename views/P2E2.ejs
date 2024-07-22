@@ -1,7 +1,34 @@
 <%- include('./layouts/header.ejs') %>
-
-  <div class="container">
-    <p>Welcome to <%= title %></p>
+<div class="container">
+  <div class="box">
+    <div class="center">
+      <h1>Ejercicio <%= title %></h1>
+      <div class="line" style="width: 800px; height: 4px;"></div>
+    </div>
+    <div class="info">
+      <label>Instructivo</label>
+      <div class="line" style="width: 300px; height: 2px;"></div>
+        <p class="resaltar">
+          En una encuesta realizada a 145 estudiantes de una universidad para determinar las
+          preferencias de lecturas, se encontró lo siguiente:
+        </p>
+        <ul>
+          <li>59 leen literatura universal.</li>
+          <li>83 leen ciencia ficción.</li>
+          <li>21 leen ciencia ficción y novelas, pero no literatura universal.</li>
+          <li>15 leen novelas y literatura universal, pero no ciencia ficción.</li>
+          <li>12 leen ciencia ficción y literatura universal, pero no leen novelas.</li>
+          <li>13 leen exclusivamente novelas.</li>
+          <li>41 leen ciencia ficción y novelas, pero no de forma exclusiva.</li>
+        </ul>
+        <p class="resaltar">Determine el número de personas que:</p>
+        <ul>
+          <li>Leen solamente uno de los géneros: 115</li>
+          <li>Leen los tres géneros: 20</li>
+          <li>Leen otros géneros diferentes a los mencionados: 10</li>
+        </ul>
+      </div>
+    </div>
   </div>
-
+</div>
 <%- include('./layouts/footer.ejs')%>

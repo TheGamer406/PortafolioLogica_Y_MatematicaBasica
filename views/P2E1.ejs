@@ -1,7 +1,27 @@
 <%- include('./layouts/header.ejs') %>
-
-  <div class="container">
-    <p>Welcome to <%= title %></p>
+<div class="container">
+  <div class="box">
+    <div class="center">
+      <h1>Ejercicio <%= title %></h1>
+      <div class="line" style="width: 800px; height: 4px;"></div>
+    </div>
+    <div class="info">
+      <label>Instructivo</label>
+      <div class="line" style="width: 300px; height: 2px;"></div>
+      <p>Sean los conjuntos 𝐴 = {𝑎, 𝑏, 𝑐, 𝑑, 𝑒 }, 𝐵 = {𝑑, 𝑒, 𝑓}, 𝐶 = {𝑔, ℎ, 𝑖, 𝑗}, 𝐷 =
+        {𝑘, 𝑙, 𝑚, 𝑛} 𝑦 𝑈 = {𝑥| 𝑥 𝑒𝑠 𝑢𝑛𝑎 𝑙𝑒𝑡𝑟𝑎 𝑑𝑒𝑙 𝑎𝑏𝑒𝑐𝑒𝑑𝑎𝑟𝑖𝑜}. Con base en estos conjuntos
+        hallar:</p>
+        <ul>
+          <li>𝐴 ∪ 𝐵: {𝑎, 𝑏, 𝑐, 𝑑, 𝑒, 𝑓}</li>
+          <li>𝐴 ∪ 𝐶: {𝑎, 𝑏, 𝑐, 𝑑, 𝑒, 𝑔, ℎ, 𝑖, 𝑗}</li>
+          <li>𝐴 ∩ 𝐵: {𝑑, 𝑒}</li>
+          <li>𝐴 ∪ 𝑈: {𝑎, 𝑏, 𝑐, 𝑑, 𝑒, 𝑓, 𝑔, ℎ, 𝑖, 𝑗, 𝑘, 𝑙, 𝑚, 𝑛, 𝑜, 𝑝, 𝑞, 𝑟, 𝑠, 𝑡, 𝑢, 𝑣, 𝑤, 𝑥, 𝑦, 𝑧}</li>
+          <li>(𝐴 ∪ 𝐵) ∩ 𝐶: no hay</li>
+          <li>(A ∩ C) ∪ (B ∩ C): no hay</li>
+      </ul>
+      <div></div>
+      </div>
+    </div>
   </div>
-
+</div>
 <%- include('./layouts/footer.ejs')%>

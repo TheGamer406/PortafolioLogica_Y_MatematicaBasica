@@ -33,18 +33,21 @@ app.get('/P1EE', (req, res) => {
     res.render('P1EE', { title: 'tabla de verdad' });
 });
 app.get('/P2E1',(req, res,)=>{
-    res.render('P2E1',{title:'Jerogrificos'  })
+    res.render('P2E1',{title:'Conjuntos 1'  })
 });
 app.get('/P2E2',(req, res,)=>{
-    res.render('P2E1',{title:'Jerogrificos'  })
+    res.render('P2E2',{title:'Conjuntos 2'  })
 });
 app.get('/P2E3',(req, res,)=>{
-    res.render('P2E1',{title:'Jerogrificos'  })
+    res.render('P2E3',{title:'Factorizacion polinomios'  })
 });
 app.get('/P2E4',(req, res,)=>{
-    res.render('P2E1',{title:'Jerogrificos'  })
+    res.render('P2E4',{title:'Division polinomios' })
 });
+app.get('/P2E5',(res,req)=>{
+    res.render('P2E5',{title: 'Opinion Conjuntos'})
+})
 // Levantar servidor
-app.listen(3000, () => {
-    console.log("Servidor escuchando en el puerto 3000");
+app.listen(process.env.PORT || 3000, () => {
+    console.log("Servidor escuchando en el puerto: ", process.env.PORT || 3000);
 });

@@ -1,7 +1,20 @@
 <%- include('./layouts/header.ejs') %>
-
-  <div class="container">
-    <p>Welcome to <%= title %></p>
+<div class="container">
+  <div class="box">
+    <div class="center">
+      <h1>Ejercicio <%= title %></h1>
+      <div class="line" style="width: 800px; height: 4px;"></div>
+    </div>
+    <div class="info">
+      <label>Instructivo</label>
+      <div class="line" style="width: 300px; height: 2px;"></div>
+        <p class="resaltar">Dividir <em>3x<sup>4</sup> + 6x<sup>2</sup> + 3</em> entre <em>3x<sup>2</sup> + 1</em></p>
+        <div class="center">
+          <label>Resultado</label>
+          <div class="line" style="width: 100px; height: 2px;"></div>
+          <p><em>x<sup>2</sup> + \(\frac{5}{3}\) + \(\frac{4}{3(3x<sup>2</sup> + 1)}\)</em>.</p>
+        </div>
+    </div>
   </div>
-
+</div>
 <%- include('./layouts/footer.ejs')%>
